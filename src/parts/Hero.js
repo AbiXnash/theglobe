@@ -24,11 +24,11 @@ export default function Hero() {
         </p>
         <Fade direction="up" delay={500} triggerOnce>
           <Button
-            href="/project"
+            href="/discuss-project"
             type="link"
             className="flex w-71 h-18 items-center px-14 py-5 text-white text-xl bg-theme-purple rounded-lg shadow-2xl hover:bg-dark-theme-purple transition duration-200"
           >
-            See Our Work
+            Work with us
             <svg
               className="ml-2 w-7 h-7 text-white animate-bounce-x"
               xmlns="http://www.w3.org/2000/svg"
