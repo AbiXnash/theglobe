@@ -2,33 +2,33 @@
 /* eslint-disable react/require-default-props */
 /* eslint-disable react/button-has-type */
 /* eslint-disable react/jsx-filename-extension */
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import { NavLink } from "react-router-dom";
 // eslint-disable-next-line import/no-extraneous-dependencies
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 export default function Button({
-  onClick = () => { },
-  type = 'button',
+  onClick = () => {},
+  type = "button",
   isExternal = false,
-  href = '',
-  className = '',
+  href = "",
+  className = "",
   style = {},
-  target = '',
+  target = "",
   children = null,
 }) {
   const onClickHandler = () => {
     if (onClick) onClick();
   };
 
-  if (type === 'link') {
+  if (type === "link") {
     if (isExternal) {
       return (
         <a
           href={href}
           className={className}
           style={style}
-          target={target === '_blank' ? '_blank' : undefined}
+          target={target === "_blank" ? "_blank" : undefined}
           rel="noopener noreferrer"
         >
           {children}
@@ -62,7 +62,7 @@ export default function Button({
 
 Button.propTypes = {
   className: PropTypes.string,
-  type: PropTypes.oneOf(['button', 'link', 'submit', 'reset']),
+  type: PropTypes.oneOf(["button", "link", "submit", "reset"]),
   href: PropTypes.string,
   onClick: PropTypes.func,
   target: PropTypes.string,

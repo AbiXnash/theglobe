@@ -14,10 +14,10 @@ import Surtido from "../assets/images/Portfolio/Surtido.png";
 import ManagementApp from "../assets/images/Portfolio/ManagementApp.png";
 
 // Advantages
-import Communicative from "../assets/images/Advantages/Communicative.png";
-import Collaborative from "../assets/images/Advantages/Collaborative.png";
-import Management from "../assets/images/Advantages/Management.png";
-import Favorite from "../assets/images/Advantages/Favorite.png";
+import Communicative from "../assets/images/Advantages/communication.svg";
+import Collaborative from "../assets/images/Advantages/collaborative.svg";
+import Management from "../assets/images/Advantages/management.svg";
+import Favorite from "../assets/images/Advantages/favorite.svg";
 
 // Testimonials
 import Sasha from "../assets/images/Testimonials/Sasha.jpg";
