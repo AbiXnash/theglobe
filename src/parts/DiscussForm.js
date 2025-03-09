@@ -14,7 +14,7 @@ import * as emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 // eslint-disable-next-line import/no-extraneous-dependencies
 import "react-toastify/dist/ReactToastify.css";
-
+import { FaWhatsapp, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { Form } from "elements/Form";
 import Button from "elements/Button";
 
@@ -66,40 +66,50 @@ export const DiscussForm = (actions) => {
       </Fade>
 
       {/* Additional Contact Information */}
+
       <Fade direction="up" triggerOnce>
-        <div className="text-center mt-8 text-gray-500">
-          <p className="font-light text-lg text-gray-400 text-center mb-5">
-            Contact me directly via:
-          </p>
-          <p>
-            📞 WhatsApp:{" "}
+        <div className="max-w-lg mx-auto mt-10 p-6 bg-white rounded-2xl shadow-lg border border-gray-200 text-center">
+          <h2 className="text-xl font-semibold text-theme-blue mb-6">
+            Get in Touch
+          </h2>
+
+          <div className="space-y-4">
+            {/* WhatsApp */}
             <a
               href="https://wa.me/+918667608025"
-              className="text-theme-blue underline"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 p-4 bg-green-50 border border-green-300 rounded-xl shadow hover:shadow-md hover:scale-105 transition-all"
             >
-              +91 86676 08025
+              <FaWhatsapp className="text-green-600 text-2xl" />
+              <span className="text-gray-700 font-medium">+91 86676 08025</span>
             </a>
-          </p>
-          <p>
-            📧 Email:{" "}
+
+            {/* Email */}
             <a
               href="mailto:thenmozhi05082003@gmail.com"
-              className="text-theme-blue underline"
+              className="flex items-center gap-3 p-4 bg-blue-50 border border-blue-300 rounded-xl shadow hover:shadow-md hover:scale-105 transition-all"
             >
-              thenmozhi05082003@gmail.com
+              <FaEnvelope className="text-blue-600 text-2xl" />
+              <span className="text-gray-700 font-medium">
+                thenmozhi05082003@gmail.com
+              </span>
             </a>
-          </p>
-          <p>
-            🔗 LinkedIn:{" "}
+
+            {/* LinkedIn */}
             <a
               href="https://linkedin.com/in/thenmozhi-t"
-              className="text-theme-blue underline"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 p-4 bg-gray-50 border border-gray-300 rounded-xl shadow hover:shadow-md hover:scale-105 transition-all"
             >
-              thenmozhi-t
+              <FaLinkedin className="text-blue-700 text-2xl" />
+              <span className="text-gray-700 font-medium">thenmozhi-t</span>
             </a>
-          </p>
+          </div>
         </div>
       </Fade>
+
       <Fade direction="up" triggerOnce>
         <p className="font-light text-lg text-gray-400 text-center mb-12 mt-10">
           {/* eslint-disable-next-line react/no-unescaped-entities */}
