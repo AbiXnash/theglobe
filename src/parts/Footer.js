@@ -60,7 +60,7 @@ export default function Footer() {
         {/* Footer */}
         <div className="text-center mt-8">
           <p className="text-lg text-gray-400 font-light">
-            Copyright 2025 - All rights reserved - The Globe
+            Copyright 2025 - All rights reserved - The Globe MYD
           </p>
         </div>
       </div>

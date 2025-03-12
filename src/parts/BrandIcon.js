@@ -11,7 +11,7 @@ export default function BrandIcon() {
     <Button className="" type="link" href="/">
       <p className="text-theme-blue text-4xl font-medium ">
         The&nbsp;
-        <span className="text-theme-purple">Globe</span>
+        <span className="text-theme-purple">Globe</span> MYD
       </p>
     </Button>
   );
