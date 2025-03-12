@@ -82,7 +82,9 @@ export const DiscussForm = (actions) => {
               className="flex items-center gap-3 p-4 bg-green-50 border border-green-300 rounded-xl shadow hover:shadow-md hover:scale-105 transition-all"
             >
               <FaWhatsapp className="text-green-600 text-2xl" />
-              <span className="text-gray-700 font-medium">+91 86676 08025</span>
+              <span className="text-gray-700 font-medium">
+                Thenmozhi (+91 86676 08025)
+              </span>
             </a>
 
             {/* Email */}
@@ -104,7 +106,7 @@ export const DiscussForm = (actions) => {
               className="flex items-center gap-3 p-4 bg-gray-50 border border-gray-300 rounded-xl shadow hover:shadow-md hover:scale-105 transition-all"
             >
               <FaLinkedin className="text-blue-700 text-2xl" />
-              <span className="text-gray-700 font-medium">thenmozhi-t</span>
+              <span className="text-gray-700 font-medium">Thenmozhi</span>
             </a>
           </div>
         </div>
