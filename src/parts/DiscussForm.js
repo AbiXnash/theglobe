@@ -14,7 +14,7 @@ import * as emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 // eslint-disable-next-line import/no-extraneous-dependencies
 import "react-toastify/dist/ReactToastify.css";
-import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
+import { FaWhatsapp, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { Form } from "elements/Form";
 import Button from "elements/Button";
 
@@ -97,15 +97,15 @@ export const DiscussForm = (actions) => {
             </a>
 
             {/* LinkedIn */}
-            {/* <a */}
-            {/*   href="https://linkedin.com/in/thenmozhi-t" */}
-            {/*   target="_blank" */}
-            {/*   rel="noopener noreferrer" */}
-            {/*   className="flex items-center gap-3 p-4 bg-gray-50 border border-gray-300 rounded-xl shadow hover:shadow-md hover:scale-105 transition-all" */}
-            {/* > */}
-            {/*   <FaLinkedin className="text-blue-700 text-2xl" /> */}
-            {/*   <span className="text-gray-700 font-medium">thenmozhi-t</span> */}
-            {/* </a> */}
+            <a
+              href="https://linkedin.com/in/thenmozhi-t"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 p-4 bg-gray-50 border border-gray-300 rounded-xl shadow hover:shadow-md hover:scale-105 transition-all"
+            >
+              <FaLinkedin className="text-blue-700 text-2xl" />
+              <span className="text-gray-700 font-medium">thenmozhi-t</span>
+            </a>
           </div>
         </div>
       </Fade>
