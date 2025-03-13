@@ -23,9 +23,8 @@ export default function Footer() {
           {/* Column 2: Contact Info */}
           <div className="sm:w-1/3 w-full">
             <h1 className="text-lg text-theme-blue font-semibold">Contact</h1>
-            <p className="text-lg text-gray-500 font-light mt-1">Thenmozhi</p>
-            <p className="text-lg text-gray-500 font-light">8667608025</p>
-            <p className="text-lg text-gray-500 font-light">9360971636</p>
+            <p className="text-lg text-gray-500 font-light mt-1">Shwathy</p>
+            <p className="text-lg text-gray-500 font-light">93609 71636</p>
             <p className="text-lg text-gray-500 font-light">
               Tamil Nadu, India - 612001
             </p>

@@ -83,7 +83,7 @@ export const DiscussForm = (actions) => {
             >
               <FaWhatsapp className="text-green-600 text-2xl" />
               <span className="text-gray-700 font-medium">
-                Thenmozhi (+91 86676 08025)
+                Shwathy (+91 93609 71636)
               </span>
             </a>
 
